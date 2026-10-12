@@ -1,0 +1,3258 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/snap/flutter/current/usr/bin/"
+      - "/snap/flutter/current/bin/"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/"
+      - "/home/bengaluru2026/.local/share/swiftly/bin/"
+      - "/opt/swift/usr/bin/"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/"
+      - "/home/bengaluru2026/.local/bin/"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/"
+      - "/home/bengaluru2026/.rbenv/shims/"
+      - "/home/bengaluru2026/.rbenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/bengaluru2026/.dotnet/tools/"
+      - "/home/bengaluru2026/.dotnet/"
+    searched_directories:
+      - "/snap/flutter/current/usr/bin/uname"
+      - "/snap/flutter/current/bin/uname"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/uname"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/uname"
+      - "/home/bengaluru2026/.local/share/swiftly/bin/uname"
+      - "/opt/swift/usr/bin/uname"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/uname"
+      - "/home/bengaluru2026/.local/bin/uname"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/uname"
+      - "/home/bengaluru2026/.rbenv/shims/uname"
+      - "/home/bengaluru2026/.rbenv/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Linux - 7.0.0-38-generic - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "/snap/flutter/current/usr/bin/"
+      - "/snap/flutter/current/bin/"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/"
+      - "/home/bengaluru2026/.local/share/swiftly/bin/"
+      - "/opt/swift/usr/bin/"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/"
+      - "/home/bengaluru2026/.local/bin/"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/"
+      - "/home/bengaluru2026/.rbenv/shims/"
+      - "/home/bengaluru2026/.rbenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/bengaluru2026/.dotnet/tools/"
+      - "/home/bengaluru2026/.dotnet/"
+    searched_directories:
+      - "/snap/flutter/current/usr/bin/ninja-build"
+      - "/snap/flutter/current/usr/bin/ninja"
+      - "/snap/flutter/current/usr/bin/samu"
+      - "/snap/flutter/current/bin/ninja-build"
+      - "/snap/flutter/current/bin/ninja"
+      - "/snap/flutter/current/bin/samu"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/ninja-build"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/ninja"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/samu"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/ninja-build"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/ninja"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/samu"
+      - "/home/bengaluru2026/.local/share/swiftly/bin/ninja-build"
+      - "/home/bengaluru2026/.local/share/swiftly/bin/ninja"
+      - "/home/bengaluru2026/.local/share/swiftly/bin/samu"
+      - "/opt/swift/usr/bin/ninja-build"
+      - "/opt/swift/usr/bin/ninja"
+      - "/opt/swift/usr/bin/samu"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/ninja-build"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/ninja"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/samu"
+      - "/home/bengaluru2026/.local/bin/ninja-build"
+      - "/home/bengaluru2026/.local/bin/ninja"
+      - "/home/bengaluru2026/.local/bin/samu"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/ninja-build"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/ninja"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/samu"
+      - "/home/bengaluru2026/.rbenv/shims/ninja-build"
+      - "/home/bengaluru2026/.rbenv/shims/ninja"
+      - "/home/bengaluru2026/.rbenv/shims/samu"
+      - "/home/bengaluru2026/.rbenv/bin/ninja-build"
+      - "/home/bengaluru2026/.rbenv/bin/ninja"
+      - "/home/bengaluru2026/.rbenv/bin/samu"
+      - "/usr/local/sbin/ninja-build"
+      - "/usr/local/sbin/ninja"
+      - "/usr/local/sbin/samu"
+      - "/usr/local/bin/ninja-build"
+      - "/usr/local/bin/ninja"
+      - "/usr/local/bin/samu"
+      - "/usr/sbin/ninja-build"
+      - "/usr/sbin/ninja"
+      - "/usr/sbin/samu"
+      - "/usr/bin/ninja-build"
+    found: "/usr/bin/ninja"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/bengaluru2026/.local/share/swiftly/bin/clang++"
+    candidate_directories:
+      - "/snap/flutter/current/usr/bin/"
+      - "/snap/flutter/current/bin/"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/"
+      - "/home/bengaluru2026/.local/share/swiftly/bin/"
+      - "/opt/swift/usr/bin/"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/"
+      - "/home/bengaluru2026/.local/bin/"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/"
+      - "/home/bengaluru2026/.rbenv/shims/"
+      - "/home/bengaluru2026/.rbenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/bengaluru2026/.dotnet/tools/"
+      - "/home/bengaluru2026/.dotnet/"
+    found: "/home/bengaluru2026/.local/share/swiftly/bin/clang++"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/bengaluru2026/.local/share/swiftly/bin/clang++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/bengaluru2026/Downloads/flutter_todo_app/todo_app/build/linux/x64/debug/CMakeFiles/4.2.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar"
+      - "ar"
+    candidate_directories:
+      - "/home/bengaluru2026/.local/share/swiftly/bin/"
+      - "/snap/flutter/current/usr/bin/"
+      - "/snap/flutter/current/bin/"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/"
+      - "/opt/swift/usr/bin/"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/"
+      - "/home/bengaluru2026/.local/bin/"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/"
+      - "/home/bengaluru2026/.rbenv/shims/"
+      - "/home/bengaluru2026/.rbenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/bengaluru2026/.dotnet/tools/"
+      - "/home/bengaluru2026/.dotnet/"
+    found: "/home/bengaluru2026/.local/share/swiftly/bin/llvm-ar"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/home/bengaluru2026/.local/share/swiftly/bin/"
+      - "/snap/flutter/current/usr/bin/"
+      - "/snap/flutter/current/bin/"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/"
+      - "/opt/swift/usr/bin/"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/"
+      - "/home/bengaluru2026/.local/bin/"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/"
+      - "/home/bengaluru2026/.rbenv/shims/"
+      - "/home/bengaluru2026/.rbenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/bengaluru2026/.dotnet/tools/"
+      - "/home/bengaluru2026/.dotnet/"
+    found: "/home/bengaluru2026/.local/share/swiftly/bin/llvm-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-strip"
+      - "strip"
+    candidate_directories:
+      - "/home/bengaluru2026/.local/share/swiftly/bin/"
+      - "/snap/flutter/current/usr/bin/"
+      - "/snap/flutter/current/bin/"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/"
+      - "/opt/swift/usr/bin/"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/"
+      - "/home/bengaluru2026/.local/bin/"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/"
+      - "/home/bengaluru2026/.rbenv/shims/"
+      - "/home/bengaluru2026/.rbenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/bengaluru2026/.dotnet/tools/"
+      - "/home/bengaluru2026/.dotnet/"
+    searched_directories:
+      - "/home/bengaluru2026/.local/share/swiftly/bin/llvm-strip"
+      - "/snap/flutter/current/usr/bin/llvm-strip"
+      - "/snap/flutter/current/bin/llvm-strip"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/llvm-strip"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/llvm-strip"
+      - "/opt/swift/usr/bin/llvm-strip"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/llvm-strip"
+      - "/home/bengaluru2026/.local/bin/llvm-strip"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/llvm-strip"
+      - "/home/bengaluru2026/.rbenv/shims/llvm-strip"
+      - "/home/bengaluru2026/.rbenv/bin/llvm-strip"
+      - "/usr/local/sbin/llvm-strip"
+      - "/usr/local/bin/llvm-strip"
+      - "/usr/sbin/llvm-strip"
+      - "/usr/bin/llvm-strip"
+      - "/sbin/llvm-strip"
+      - "/bin/llvm-strip"
+      - "/usr/games/llvm-strip"
+      - "/usr/local/games/llvm-strip"
+      - "/snap/bin/llvm-strip"
+      - "/home/bengaluru2026/.dotnet/tools/llvm-strip"
+      - "/home/bengaluru2026/.dotnet/llvm-strip"
+      - "/home/bengaluru2026/.local/share/swiftly/bin/strip"
+      - "/snap/flutter/current/usr/bin/strip"
+      - "/snap/flutter/current/bin/strip"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/strip"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/strip"
+      - "/opt/swift/usr/bin/strip"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/strip"
+      - "/home/bengaluru2026/.local/bin/strip"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/strip"
+      - "/home/bengaluru2026/.rbenv/shims/strip"
+      - "/home/bengaluru2026/.rbenv/bin/strip"
+      - "/usr/local/sbin/strip"
+      - "/usr/local/bin/strip"
+      - "/usr/sbin/strip"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld.lld"
+      - "ld"
+    candidate_directories:
+      - "/home/bengaluru2026/.local/share/swiftly/bin/"
+      - "/snap/flutter/current/usr/bin/"
+      - "/snap/flutter/current/bin/"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/"
+      - "/opt/swift/usr/bin/"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/"
+      - "/home/bengaluru2026/.local/bin/"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/"
+      - "/home/bengaluru2026/.rbenv/shims/"
+      - "/home/bengaluru2026/.rbenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/bengaluru2026/.dotnet/tools/"
+      - "/home/bengaluru2026/.dotnet/"
+    found: "/home/bengaluru2026/.local/share/swiftly/bin/ld.lld"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-nm"
+      - "nm"
+    candidate_directories:
+      - "/home/bengaluru2026/.local/share/swiftly/bin/"
+      - "/snap/flutter/current/usr/bin/"
+      - "/snap/flutter/current/bin/"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/"
+      - "/opt/swift/usr/bin/"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/"
+      - "/home/bengaluru2026/.local/bin/"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/"
+      - "/home/bengaluru2026/.rbenv/shims/"
+      - "/home/bengaluru2026/.rbenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/bengaluru2026/.dotnet/tools/"
+      - "/home/bengaluru2026/.dotnet/"
+    searched_directories:
+      - "/home/bengaluru2026/.local/share/swiftly/bin/llvm-nm"
+      - "/snap/flutter/current/usr/bin/llvm-nm"
+      - "/snap/flutter/current/bin/llvm-nm"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/llvm-nm"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/llvm-nm"
+      - "/opt/swift/usr/bin/llvm-nm"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/llvm-nm"
+      - "/home/bengaluru2026/.local/bin/llvm-nm"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/llvm-nm"
+      - "/home/bengaluru2026/.rbenv/shims/llvm-nm"
+      - "/home/bengaluru2026/.rbenv/bin/llvm-nm"
+      - "/usr/local/sbin/llvm-nm"
+      - "/usr/local/bin/llvm-nm"
+      - "/usr/sbin/llvm-nm"
+      - "/usr/bin/llvm-nm"
+      - "/sbin/llvm-nm"
+      - "/bin/llvm-nm"
+      - "/usr/games/llvm-nm"
+      - "/usr/local/games/llvm-nm"
+      - "/snap/bin/llvm-nm"
+      - "/home/bengaluru2026/.dotnet/tools/llvm-nm"
+      - "/home/bengaluru2026/.dotnet/llvm-nm"
+      - "/home/bengaluru2026/.local/share/swiftly/bin/nm"
+      - "/snap/flutter/current/usr/bin/nm"
+      - "/snap/flutter/current/bin/nm"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/nm"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/nm"
+      - "/opt/swift/usr/bin/nm"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/nm"
+      - "/home/bengaluru2026/.local/bin/nm"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/nm"
+      - "/home/bengaluru2026/.rbenv/shims/nm"
+      - "/home/bengaluru2026/.rbenv/bin/nm"
+      - "/usr/local/sbin/nm"
+      - "/usr/local/bin/nm"
+      - "/usr/sbin/nm"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/home/bengaluru2026/.local/share/swiftly/bin/"
+      - "/snap/flutter/current/usr/bin/"
+      - "/snap/flutter/current/bin/"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/"
+      - "/opt/swift/usr/bin/"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/"
+      - "/home/bengaluru2026/.local/bin/"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/"
+      - "/home/bengaluru2026/.rbenv/shims/"
+      - "/home/bengaluru2026/.rbenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/bengaluru2026/.dotnet/tools/"
+      - "/home/bengaluru2026/.dotnet/"
+    found: "/home/bengaluru2026/.local/share/swiftly/bin/llvm-objdump"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/home/bengaluru2026/.local/share/swiftly/bin/"
+      - "/snap/flutter/current/usr/bin/"
+      - "/snap/flutter/current/bin/"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/"
+      - "/opt/swift/usr/bin/"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/"
+      - "/home/bengaluru2026/.local/bin/"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/"
+      - "/home/bengaluru2026/.rbenv/shims/"
+      - "/home/bengaluru2026/.rbenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/bengaluru2026/.dotnet/tools/"
+      - "/home/bengaluru2026/.dotnet/"
+    found: "/home/bengaluru2026/.local/share/swiftly/bin/llvm-objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/home/bengaluru2026/.local/share/swiftly/bin/"
+      - "/snap/flutter/current/usr/bin/"
+      - "/snap/flutter/current/bin/"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/"
+      - "/opt/swift/usr/bin/"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/"
+      - "/home/bengaluru2026/.local/bin/"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/"
+      - "/home/bengaluru2026/.rbenv/shims/"
+      - "/home/bengaluru2026/.rbenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/bengaluru2026/.dotnet/tools/"
+      - "/home/bengaluru2026/.dotnet/"
+    searched_directories:
+      - "/home/bengaluru2026/.local/share/swiftly/bin/llvm-readelf"
+      - "/snap/flutter/current/usr/bin/llvm-readelf"
+      - "/snap/flutter/current/bin/llvm-readelf"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/llvm-readelf"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/llvm-readelf"
+      - "/opt/swift/usr/bin/llvm-readelf"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/llvm-readelf"
+      - "/home/bengaluru2026/.local/bin/llvm-readelf"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/llvm-readelf"
+      - "/home/bengaluru2026/.rbenv/shims/llvm-readelf"
+      - "/home/bengaluru2026/.rbenv/bin/llvm-readelf"
+      - "/usr/local/sbin/llvm-readelf"
+      - "/usr/local/bin/llvm-readelf"
+      - "/usr/sbin/llvm-readelf"
+      - "/usr/bin/llvm-readelf"
+      - "/sbin/llvm-readelf"
+      - "/bin/llvm-readelf"
+      - "/usr/games/llvm-readelf"
+      - "/usr/local/games/llvm-readelf"
+      - "/snap/bin/llvm-readelf"
+      - "/home/bengaluru2026/.dotnet/tools/llvm-readelf"
+      - "/home/bengaluru2026/.dotnet/llvm-readelf"
+      - "/home/bengaluru2026/.local/share/swiftly/bin/readelf"
+      - "/snap/flutter/current/usr/bin/readelf"
+      - "/snap/flutter/current/bin/readelf"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/readelf"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/readelf"
+      - "/opt/swift/usr/bin/readelf"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/readelf"
+      - "/home/bengaluru2026/.local/bin/readelf"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/readelf"
+      - "/home/bengaluru2026/.rbenv/shims/readelf"
+      - "/home/bengaluru2026/.rbenv/bin/readelf"
+      - "/usr/local/sbin/readelf"
+      - "/usr/local/bin/readelf"
+      - "/usr/sbin/readelf"
+    found: "/usr/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/home/bengaluru2026/.local/share/swiftly/bin/"
+      - "/snap/flutter/current/usr/bin/"
+      - "/snap/flutter/current/bin/"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/"
+      - "/opt/swift/usr/bin/"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/"
+      - "/home/bengaluru2026/.local/bin/"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/"
+      - "/home/bengaluru2026/.rbenv/shims/"
+      - "/home/bengaluru2026/.rbenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/bengaluru2026/.dotnet/tools/"
+      - "/home/bengaluru2026/.dotnet/"
+    searched_directories:
+      - "/home/bengaluru2026/.local/share/swiftly/bin/llvm-dlltool"
+      - "/snap/flutter/current/usr/bin/llvm-dlltool"
+      - "/snap/flutter/current/bin/llvm-dlltool"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/llvm-dlltool"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/llvm-dlltool"
+      - "/opt/swift/usr/bin/llvm-dlltool"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/llvm-dlltool"
+      - "/home/bengaluru2026/.local/bin/llvm-dlltool"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/llvm-dlltool"
+      - "/home/bengaluru2026/.rbenv/shims/llvm-dlltool"
+      - "/home/bengaluru2026/.rbenv/bin/llvm-dlltool"
+      - "/usr/local/sbin/llvm-dlltool"
+      - "/usr/local/bin/llvm-dlltool"
+      - "/usr/sbin/llvm-dlltool"
+      - "/usr/bin/llvm-dlltool"
+      - "/sbin/llvm-dlltool"
+      - "/bin/llvm-dlltool"
+      - "/usr/games/llvm-dlltool"
+      - "/usr/local/games/llvm-dlltool"
+      - "/snap/bin/llvm-dlltool"
+      - "/home/bengaluru2026/.dotnet/tools/llvm-dlltool"
+      - "/home/bengaluru2026/.dotnet/llvm-dlltool"
+      - "/home/bengaluru2026/.local/share/swiftly/bin/dlltool"
+      - "/snap/flutter/current/usr/bin/dlltool"
+      - "/snap/flutter/current/bin/dlltool"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/dlltool"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/dlltool"
+      - "/opt/swift/usr/bin/dlltool"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/dlltool"
+      - "/home/bengaluru2026/.local/bin/dlltool"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/dlltool"
+      - "/home/bengaluru2026/.rbenv/shims/dlltool"
+      - "/home/bengaluru2026/.rbenv/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/sbin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/games/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/snap/bin/dlltool"
+      - "/home/bengaluru2026/.dotnet/tools/dlltool"
+      - "/home/bengaluru2026/.dotnet/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/home/bengaluru2026/.local/share/swiftly/bin/"
+      - "/snap/flutter/current/usr/bin/"
+      - "/snap/flutter/current/bin/"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/"
+      - "/opt/swift/usr/bin/"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/"
+      - "/home/bengaluru2026/.local/bin/"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/"
+      - "/home/bengaluru2026/.rbenv/shims/"
+      - "/home/bengaluru2026/.rbenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/bengaluru2026/.dotnet/tools/"
+      - "/home/bengaluru2026/.dotnet/"
+    searched_directories:
+      - "/home/bengaluru2026/.local/share/swiftly/bin/llvm-addr2line"
+      - "/snap/flutter/current/usr/bin/llvm-addr2line"
+      - "/snap/flutter/current/bin/llvm-addr2line"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/llvm-addr2line"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/llvm-addr2line"
+      - "/opt/swift/usr/bin/llvm-addr2line"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/llvm-addr2line"
+      - "/home/bengaluru2026/.local/bin/llvm-addr2line"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/llvm-addr2line"
+      - "/home/bengaluru2026/.rbenv/shims/llvm-addr2line"
+      - "/home/bengaluru2026/.rbenv/bin/llvm-addr2line"
+      - "/usr/local/sbin/llvm-addr2line"
+      - "/usr/local/bin/llvm-addr2line"
+      - "/usr/sbin/llvm-addr2line"
+      - "/usr/bin/llvm-addr2line"
+      - "/sbin/llvm-addr2line"
+      - "/bin/llvm-addr2line"
+      - "/usr/games/llvm-addr2line"
+      - "/usr/local/games/llvm-addr2line"
+      - "/snap/bin/llvm-addr2line"
+      - "/home/bengaluru2026/.dotnet/tools/llvm-addr2line"
+      - "/home/bengaluru2026/.dotnet/llvm-addr2line"
+      - "/home/bengaluru2026/.local/share/swiftly/bin/addr2line"
+      - "/snap/flutter/current/usr/bin/addr2line"
+      - "/snap/flutter/current/bin/addr2line"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/addr2line"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/addr2line"
+      - "/opt/swift/usr/bin/addr2line"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/addr2line"
+      - "/home/bengaluru2026/.local/bin/addr2line"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/addr2line"
+      - "/home/bengaluru2026/.rbenv/shims/addr2line"
+      - "/home/bengaluru2026/.rbenv/bin/addr2line"
+      - "/usr/local/sbin/addr2line"
+      - "/usr/local/bin/addr2line"
+      - "/usr/sbin/addr2line"
+    found: "/usr/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/home/bengaluru2026/.local/share/swiftly/bin/"
+      - "/snap/flutter/current/usr/bin/"
+      - "/snap/flutter/current/bin/"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/"
+      - "/opt/swift/usr/bin/"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/"
+      - "/home/bengaluru2026/.local/bin/"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/"
+      - "/home/bengaluru2026/.rbenv/shims/"
+      - "/home/bengaluru2026/.rbenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/bengaluru2026/.dotnet/tools/"
+      - "/home/bengaluru2026/.dotnet/"
+    searched_directories:
+      - "/home/bengaluru2026/.local/share/swiftly/bin/tapi"
+      - "/snap/flutter/current/usr/bin/tapi"
+      - "/snap/flutter/current/bin/tapi"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/tapi"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/tapi"
+      - "/opt/swift/usr/bin/tapi"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/tapi"
+      - "/home/bengaluru2026/.local/bin/tapi"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/tapi"
+      - "/home/bengaluru2026/.rbenv/shims/tapi"
+      - "/home/bengaluru2026/.rbenv/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/usr/bin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+      - "/usr/games/tapi"
+      - "/usr/local/games/tapi"
+      - "/snap/bin/tapi"
+      - "/home/bengaluru2026/.dotnet/tools/tapi"
+      - "/home/bengaluru2026/.dotnet/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-17.0"
+      - "llvm-ar-17"
+      - "llvm-ar17"
+      - "llvm-ar"
+    candidate_directories:
+      - "/home/bengaluru2026/.local/share/swiftly/bin/"
+      - "/snap/flutter/current/usr/bin/"
+      - "/snap/flutter/current/bin/"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/"
+      - "/opt/swift/usr/bin/"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/"
+      - "/home/bengaluru2026/.local/bin/"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/"
+      - "/home/bengaluru2026/.rbenv/shims/"
+      - "/home/bengaluru2026/.rbenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/bengaluru2026/.dotnet/tools/"
+      - "/home/bengaluru2026/.dotnet/"
+    searched_directories:
+      - "/home/bengaluru2026/.local/share/swiftly/bin/llvm-ar-17.0"
+      - "/snap/flutter/current/usr/bin/llvm-ar-17.0"
+      - "/snap/flutter/current/bin/llvm-ar-17.0"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/llvm-ar-17.0"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/llvm-ar-17.0"
+      - "/opt/swift/usr/bin/llvm-ar-17.0"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/llvm-ar-17.0"
+      - "/home/bengaluru2026/.local/bin/llvm-ar-17.0"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/llvm-ar-17.0"
+      - "/home/bengaluru2026/.rbenv/shims/llvm-ar-17.0"
+      - "/home/bengaluru2026/.rbenv/bin/llvm-ar-17.0"
+      - "/usr/local/sbin/llvm-ar-17.0"
+      - "/usr/local/bin/llvm-ar-17.0"
+      - "/usr/sbin/llvm-ar-17.0"
+      - "/usr/bin/llvm-ar-17.0"
+      - "/sbin/llvm-ar-17.0"
+      - "/bin/llvm-ar-17.0"
+      - "/usr/games/llvm-ar-17.0"
+      - "/usr/local/games/llvm-ar-17.0"
+      - "/snap/bin/llvm-ar-17.0"
+      - "/home/bengaluru2026/.dotnet/tools/llvm-ar-17.0"
+      - "/home/bengaluru2026/.dotnet/llvm-ar-17.0"
+      - "/home/bengaluru2026/.local/share/swiftly/bin/llvm-ar-17"
+      - "/snap/flutter/current/usr/bin/llvm-ar-17"
+      - "/snap/flutter/current/bin/llvm-ar-17"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/llvm-ar-17"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/llvm-ar-17"
+      - "/opt/swift/usr/bin/llvm-ar-17"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/llvm-ar-17"
+      - "/home/bengaluru2026/.local/bin/llvm-ar-17"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/llvm-ar-17"
+      - "/home/bengaluru2026/.rbenv/shims/llvm-ar-17"
+      - "/home/bengaluru2026/.rbenv/bin/llvm-ar-17"
+      - "/usr/local/sbin/llvm-ar-17"
+      - "/usr/local/bin/llvm-ar-17"
+      - "/usr/sbin/llvm-ar-17"
+      - "/usr/bin/llvm-ar-17"
+      - "/sbin/llvm-ar-17"
+      - "/bin/llvm-ar-17"
+      - "/usr/games/llvm-ar-17"
+      - "/usr/local/games/llvm-ar-17"
+      - "/snap/bin/llvm-ar-17"
+      - "/home/bengaluru2026/.dotnet/tools/llvm-ar-17"
+      - "/home/bengaluru2026/.dotnet/llvm-ar-17"
+      - "/home/bengaluru2026/.local/share/swiftly/bin/llvm-ar17"
+      - "/snap/flutter/current/usr/bin/llvm-ar17"
+      - "/snap/flutter/current/bin/llvm-ar17"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/llvm-ar17"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/llvm-ar17"
+      - "/opt/swift/usr/bin/llvm-ar17"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/llvm-ar17"
+      - "/home/bengaluru2026/.local/bin/llvm-ar17"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/llvm-ar17"
+      - "/home/bengaluru2026/.rbenv/shims/llvm-ar17"
+      - "/home/bengaluru2026/.rbenv/bin/llvm-ar17"
+      - "/usr/local/sbin/llvm-ar17"
+      - "/usr/local/bin/llvm-ar17"
+      - "/usr/sbin/llvm-ar17"
+      - "/usr/bin/llvm-ar17"
+      - "/sbin/llvm-ar17"
+      - "/bin/llvm-ar17"
+      - "/usr/games/llvm-ar17"
+      - "/usr/local/games/llvm-ar17"
+      - "/snap/bin/llvm-ar17"
+      - "/home/bengaluru2026/.dotnet/tools/llvm-ar17"
+      - "/home/bengaluru2026/.dotnet/llvm-ar17"
+    found: "/home/bengaluru2026/.local/share/swiftly/bin/llvm-ar"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-17.0"
+      - "llvm-ranlib-17"
+      - "llvm-ranlib17"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "/home/bengaluru2026/.local/share/swiftly/bin/"
+      - "/snap/flutter/current/usr/bin/"
+      - "/snap/flutter/current/bin/"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/"
+      - "/opt/swift/usr/bin/"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/"
+      - "/home/bengaluru2026/.local/bin/"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/"
+      - "/home/bengaluru2026/.rbenv/shims/"
+      - "/home/bengaluru2026/.rbenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/bengaluru2026/.dotnet/tools/"
+      - "/home/bengaluru2026/.dotnet/"
+    searched_directories:
+      - "/home/bengaluru2026/.local/share/swiftly/bin/llvm-ranlib-17.0"
+      - "/snap/flutter/current/usr/bin/llvm-ranlib-17.0"
+      - "/snap/flutter/current/bin/llvm-ranlib-17.0"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/llvm-ranlib-17.0"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/llvm-ranlib-17.0"
+      - "/opt/swift/usr/bin/llvm-ranlib-17.0"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/llvm-ranlib-17.0"
+      - "/home/bengaluru2026/.local/bin/llvm-ranlib-17.0"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/llvm-ranlib-17.0"
+      - "/home/bengaluru2026/.rbenv/shims/llvm-ranlib-17.0"
+      - "/home/bengaluru2026/.rbenv/bin/llvm-ranlib-17.0"
+      - "/usr/local/sbin/llvm-ranlib-17.0"
+      - "/usr/local/bin/llvm-ranlib-17.0"
+      - "/usr/sbin/llvm-ranlib-17.0"
+      - "/usr/bin/llvm-ranlib-17.0"
+      - "/sbin/llvm-ranlib-17.0"
+      - "/bin/llvm-ranlib-17.0"
+      - "/usr/games/llvm-ranlib-17.0"
+      - "/usr/local/games/llvm-ranlib-17.0"
+      - "/snap/bin/llvm-ranlib-17.0"
+      - "/home/bengaluru2026/.dotnet/tools/llvm-ranlib-17.0"
+      - "/home/bengaluru2026/.dotnet/llvm-ranlib-17.0"
+      - "/home/bengaluru2026/.local/share/swiftly/bin/llvm-ranlib-17"
+      - "/snap/flutter/current/usr/bin/llvm-ranlib-17"
+      - "/snap/flutter/current/bin/llvm-ranlib-17"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/llvm-ranlib-17"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/llvm-ranlib-17"
+      - "/opt/swift/usr/bin/llvm-ranlib-17"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/llvm-ranlib-17"
+      - "/home/bengaluru2026/.local/bin/llvm-ranlib-17"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/llvm-ranlib-17"
+      - "/home/bengaluru2026/.rbenv/shims/llvm-ranlib-17"
+      - "/home/bengaluru2026/.rbenv/bin/llvm-ranlib-17"
+      - "/usr/local/sbin/llvm-ranlib-17"
+      - "/usr/local/bin/llvm-ranlib-17"
+      - "/usr/sbin/llvm-ranlib-17"
+      - "/usr/bin/llvm-ranlib-17"
+      - "/sbin/llvm-ranlib-17"
+      - "/bin/llvm-ranlib-17"
+      - "/usr/games/llvm-ranlib-17"
+      - "/usr/local/games/llvm-ranlib-17"
+      - "/snap/bin/llvm-ranlib-17"
+      - "/home/bengaluru2026/.dotnet/tools/llvm-ranlib-17"
+      - "/home/bengaluru2026/.dotnet/llvm-ranlib-17"
+      - "/home/bengaluru2026/.local/share/swiftly/bin/llvm-ranlib17"
+      - "/snap/flutter/current/usr/bin/llvm-ranlib17"
+      - "/snap/flutter/current/bin/llvm-ranlib17"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/llvm-ranlib17"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/llvm-ranlib17"
+      - "/opt/swift/usr/bin/llvm-ranlib17"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/llvm-ranlib17"
+      - "/home/bengaluru2026/.local/bin/llvm-ranlib17"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/llvm-ranlib17"
+      - "/home/bengaluru2026/.rbenv/shims/llvm-ranlib17"
+      - "/home/bengaluru2026/.rbenv/bin/llvm-ranlib17"
+      - "/usr/local/sbin/llvm-ranlib17"
+      - "/usr/local/bin/llvm-ranlib17"
+      - "/usr/sbin/llvm-ranlib17"
+      - "/usr/bin/llvm-ranlib17"
+      - "/sbin/llvm-ranlib17"
+      - "/bin/llvm-ranlib17"
+      - "/usr/games/llvm-ranlib17"
+      - "/usr/local/games/llvm-ranlib17"
+      - "/snap/bin/llvm-ranlib17"
+      - "/home/bengaluru2026/.dotnet/tools/llvm-ranlib17"
+      - "/home/bengaluru2026/.dotnet/llvm-ranlib17"
+    found: "/home/bengaluru2026/.local/share/swiftly/bin/llvm-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-17.0"
+      - "clang-scan-deps-17"
+      - "clang-scan-deps17"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "/home/bengaluru2026/.local/share/swiftly/bin/"
+      - "/snap/flutter/current/usr/bin/"
+      - "/snap/flutter/current/bin/"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/"
+      - "/opt/swift/usr/bin/"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/"
+      - "/home/bengaluru2026/.local/bin/"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/"
+      - "/home/bengaluru2026/.rbenv/shims/"
+      - "/home/bengaluru2026/.rbenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/bengaluru2026/.dotnet/tools/"
+      - "/home/bengaluru2026/.dotnet/"
+    searched_directories:
+      - "/home/bengaluru2026/.local/share/swiftly/bin/clang-scan-deps-17.0"
+      - "/snap/flutter/current/usr/bin/clang-scan-deps-17.0"
+      - "/snap/flutter/current/bin/clang-scan-deps-17.0"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/clang-scan-deps-17.0"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/clang-scan-deps-17.0"
+      - "/opt/swift/usr/bin/clang-scan-deps-17.0"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/clang-scan-deps-17.0"
+      - "/home/bengaluru2026/.local/bin/clang-scan-deps-17.0"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/clang-scan-deps-17.0"
+      - "/home/bengaluru2026/.rbenv/shims/clang-scan-deps-17.0"
+      - "/home/bengaluru2026/.rbenv/bin/clang-scan-deps-17.0"
+      - "/usr/local/sbin/clang-scan-deps-17.0"
+      - "/usr/local/bin/clang-scan-deps-17.0"
+      - "/usr/sbin/clang-scan-deps-17.0"
+      - "/usr/bin/clang-scan-deps-17.0"
+      - "/sbin/clang-scan-deps-17.0"
+      - "/bin/clang-scan-deps-17.0"
+      - "/usr/games/clang-scan-deps-17.0"
+      - "/usr/local/games/clang-scan-deps-17.0"
+      - "/snap/bin/clang-scan-deps-17.0"
+      - "/home/bengaluru2026/.dotnet/tools/clang-scan-deps-17.0"
+      - "/home/bengaluru2026/.dotnet/clang-scan-deps-17.0"
+      - "/home/bengaluru2026/.local/share/swiftly/bin/clang-scan-deps-17"
+      - "/snap/flutter/current/usr/bin/clang-scan-deps-17"
+      - "/snap/flutter/current/bin/clang-scan-deps-17"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/clang-scan-deps-17"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/clang-scan-deps-17"
+      - "/opt/swift/usr/bin/clang-scan-deps-17"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/clang-scan-deps-17"
+      - "/home/bengaluru2026/.local/bin/clang-scan-deps-17"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/clang-scan-deps-17"
+      - "/home/bengaluru2026/.rbenv/shims/clang-scan-deps-17"
+      - "/home/bengaluru2026/.rbenv/bin/clang-scan-deps-17"
+      - "/usr/local/sbin/clang-scan-deps-17"
+      - "/usr/local/bin/clang-scan-deps-17"
+      - "/usr/sbin/clang-scan-deps-17"
+      - "/usr/bin/clang-scan-deps-17"
+      - "/sbin/clang-scan-deps-17"
+      - "/bin/clang-scan-deps-17"
+      - "/usr/games/clang-scan-deps-17"
+      - "/usr/local/games/clang-scan-deps-17"
+      - "/snap/bin/clang-scan-deps-17"
+      - "/home/bengaluru2026/.dotnet/tools/clang-scan-deps-17"
+      - "/home/bengaluru2026/.dotnet/clang-scan-deps-17"
+      - "/home/bengaluru2026/.local/share/swiftly/bin/clang-scan-deps17"
+      - "/snap/flutter/current/usr/bin/clang-scan-deps17"
+      - "/snap/flutter/current/bin/clang-scan-deps17"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/clang-scan-deps17"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/clang-scan-deps17"
+      - "/opt/swift/usr/bin/clang-scan-deps17"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/clang-scan-deps17"
+      - "/home/bengaluru2026/.local/bin/clang-scan-deps17"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/clang-scan-deps17"
+      - "/home/bengaluru2026/.rbenv/shims/clang-scan-deps17"
+      - "/home/bengaluru2026/.rbenv/bin/clang-scan-deps17"
+      - "/usr/local/sbin/clang-scan-deps17"
+      - "/usr/local/bin/clang-scan-deps17"
+      - "/usr/sbin/clang-scan-deps17"
+      - "/usr/bin/clang-scan-deps17"
+      - "/sbin/clang-scan-deps17"
+      - "/bin/clang-scan-deps17"
+      - "/usr/games/clang-scan-deps17"
+      - "/usr/local/games/clang-scan-deps17"
+      - "/snap/bin/clang-scan-deps17"
+      - "/home/bengaluru2026/.dotnet/tools/clang-scan-deps17"
+      - "/home/bengaluru2026/.dotnet/clang-scan-deps17"
+      - "/home/bengaluru2026/.local/share/swiftly/bin/clang-scan-deps"
+      - "/snap/flutter/current/usr/bin/clang-scan-deps"
+      - "/snap/flutter/current/bin/clang-scan-deps"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/clang-scan-deps"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/clang-scan-deps"
+      - "/opt/swift/usr/bin/clang-scan-deps"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/clang-scan-deps"
+      - "/home/bengaluru2026/.local/bin/clang-scan-deps"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/clang-scan-deps"
+      - "/home/bengaluru2026/.rbenv/shims/clang-scan-deps"
+      - "/home/bengaluru2026/.rbenv/bin/clang-scan-deps"
+      - "/usr/local/sbin/clang-scan-deps"
+      - "/usr/local/bin/clang-scan-deps"
+      - "/usr/sbin/clang-scan-deps"
+    found: "/usr/bin/clang-scan-deps"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/bengaluru2026/Downloads/flutter_todo_app/todo_app/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-BmcoqO"
+      binary: "/home/bengaluru2026/Downloads/flutter_todo_app/todo_app/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-BmcoqO"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bengaluru2026/Downloads/flutter_todo_app/todo_app/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-BmcoqO'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_b37db
+        [1/2] /home/bengaluru2026/.local/share/swiftly/bin/clang++   -v -MD -MT CMakeFiles/cmTC_b37db.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_b37db.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_b37db.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        clang version 17.0.0 (https://github.com/swiftlang/llvm-project.git 8f0d2ca924db37c8f8161d55c21b9097b05b72f3)
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /home/bengaluru2026/.local/share/swiftly/toolchains/6.2.4/usr/bin
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/13
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/15
+        Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/15
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/home/bengaluru2026/.local/share/swiftly/toolchains/6.2.4/usr/bin/clang-17" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/bengaluru2026/Downloads/flutter_todo_app/todo_app/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-BmcoqO -v -fcoverage-compilation-dir=/home/bengaluru2026/Downloads/flutter_todo_app/todo_app/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-BmcoqO -resource-dir /home/bengaluru2026/.local/share/swiftly/toolchains/6.2.4/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_b37db.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b37db.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/x86_64-linux-gnu/c++/15 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/backward -internal-isystem /home/bengaluru2026/.local/share/swiftly/toolchains/6.2.4/usr/lib/clang/17/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b37db.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 17.0.0 based upon LLVM 17.0.0 default target x86_64-unknown-linux-gnu
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15
+         /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/x86_64-linux-gnu/c++/15
+         /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/backward
+         /home/bengaluru2026/.local/share/swiftly/toolchains/6.2.4/usr/lib/clang/17/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        [2/2] : && /home/bengaluru2026/.local/share/swiftly/bin/clang++  -v -Wl,-v CMakeFiles/cmTC_b37db.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b37db   && :
+        clang version 17.0.0 (https://github.com/swiftlang/llvm-project.git 8f0d2ca924db37c8f8161d55c21b9097b05b72f3)
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /home/bengaluru2026/.local/share/swiftly/toolchains/6.2.4/usr/bin
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/13
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/15
+        Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/15
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/usr/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b37db /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_b37db.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /lib/x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.46
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/x86_64-linux-gnu/c++/15]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/backward]
+          add: [/home/bengaluru2026/.local/share/swiftly/toolchains/6.2.4/usr/lib/clang/17/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15] ==> [/usr/include/c++/15]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/x86_64-linux-gnu/c++/15] ==> [/usr/include/x86_64-linux-gnu/c++/15]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/backward] ==> [/usr/include/c++/15/backward]
+        collapse include dir [/home/bengaluru2026/.local/share/swiftly/toolchains/6.2.4/usr/lib/clang/17/include] ==> [/home/bengaluru2026/.local/share/swiftly/toolchains/6.2.4/usr/lib/clang/17/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/15;/usr/include/x86_64-linux-gnu/c++/15;/usr/include/c++/15/backward;/home/bengaluru2026/.local/share/swiftly/toolchains/6.2.4/usr/lib/clang/17/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/bengaluru2026/Downloads/flutter_todo_app/todo_app/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-BmcoqO']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_b37db]
+        ignore line: [[1/2] /home/bengaluru2026/.local/share/swiftly/bin/clang++   -v -MD -MT CMakeFiles/cmTC_b37db.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_b37db.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_b37db.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 17.0.0 (https://github.com/swiftlang/llvm-project.git 8f0d2ca924db37c8f8161d55c21b9097b05b72f3)]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /home/bengaluru2026/.local/share/swiftly/toolchains/6.2.4/usr/bin]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/13]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/15]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/15]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/home/bengaluru2026/.local/share/swiftly/toolchains/6.2.4/usr/bin/clang-17" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/bengaluru2026/Downloads/flutter_todo_app/todo_app/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-BmcoqO -v -fcoverage-compilation-dir=/home/bengaluru2026/Downloads/flutter_todo_app/todo_app/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-BmcoqO -resource-dir /home/bengaluru2026/.local/share/swiftly/toolchains/6.2.4/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_b37db.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b37db.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/x86_64-linux-gnu/c++/15 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/backward -internal-isystem /home/bengaluru2026/.local/share/swiftly/toolchains/6.2.4/usr/lib/clang/17/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b37db.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 17.0.0 based upon LLVM 17.0.0 default target x86_64-unknown-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include"]
+        ignore line: [ignoring nonexistent directory "/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/x86_64-linux-gnu/c++/15]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/backward]
+        ignore line: [ /home/bengaluru2026/.local/share/swiftly/toolchains/6.2.4/usr/lib/clang/17/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] : && /home/bengaluru2026/.local/share/swiftly/bin/clang++  -v -Wl -v CMakeFiles/cmTC_b37db.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b37db   && :]
+        ignore line: [clang version 17.0.0 (https://github.com/swiftlang/llvm-project.git 8f0d2ca924db37c8f8161d55c21b9097b05b72f3)]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /home/bengaluru2026/.local/share/swiftly/toolchains/6.2.4/usr/bin]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/13]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/15]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/15]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b37db /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_b37db.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /lib/x86_64-linux-gnu/crtn.o]
+          arg [/usr/bin/ld] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_b37db] ==> ignore
+          arg [/lib/x86_64-linux-gnu/Scrt1.o] ==> obj [/lib/x86_64-linux-gnu/Scrt1.o]
+          arg [/lib/x86_64-linux-gnu/crti.o] ==> obj [/lib/x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/15] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib64]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_b37db.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o]
+          arg [/lib/x86_64-linux-gnu/crtn.o] ==> obj [/lib/x86_64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/15] ==> [/usr/lib/gcc/x86_64-linux-gnu/15]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/lib/x86_64-linux-gnu/Scrt1.o;/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o;/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/15;/usr/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.46
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:517 (find_program)"
+      - "flutter/CMakeLists.txt:24 (find_package)"
+    mode: "program"
+    variable: "PKG_CONFIG_EXECUTABLE"
+    description: "pkg-config executable"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pkg-config"
+      - "pkgconf"
+    candidate_directories:
+      - "/snap/flutter/current/usr/bin/"
+      - "/snap/flutter/current/bin/"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/"
+      - "/home/bengaluru2026/.local/share/swiftly/bin/"
+      - "/opt/swift/usr/bin/"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/"
+      - "/home/bengaluru2026/.local/bin/"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/"
+      - "/home/bengaluru2026/.rbenv/shims/"
+      - "/home/bengaluru2026/.rbenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/bengaluru2026/.dotnet/tools/"
+      - "/home/bengaluru2026/.dotnet/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/snap/flutter/current/usr/bin/pkg-config"
+      - "/snap/flutter/current/usr/bin/pkgconf"
+      - "/snap/flutter/current/bin/pkg-config"
+      - "/snap/flutter/current/bin/pkgconf"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/pkg-config"
+      - "/home/bengaluru2026/snap/flutter/common/flutter/bin/pkgconf"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/pkg-config"
+      - "/home/bengaluru2026/.config/composer/vendor/bin/pkgconf"
+      - "/home/bengaluru2026/.local/share/swiftly/bin/pkg-config"
+      - "/home/bengaluru2026/.local/share/swiftly/bin/pkgconf"
+      - "/opt/swift/usr/bin/pkg-config"
+      - "/opt/swift/usr/bin/pkgconf"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/pkg-config"
+      - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin/pkgconf"
+      - "/home/bengaluru2026/.local/bin/pkg-config"
+      - "/home/bengaluru2026/.local/bin/pkgconf"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/pkg-config"
+      - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin/pkgconf"
+      - "/home/bengaluru2026/.rbenv/shims/pkg-config"
+      - "/home/bengaluru2026/.rbenv/shims/pkgconf"
+      - "/home/bengaluru2026/.rbenv/bin/pkg-config"
+      - "/home/bengaluru2026/.rbenv/bin/pkgconf"
+      - "/usr/local/sbin/pkg-config"
+      - "/usr/local/sbin/pkgconf"
+      - "/usr/local/bin/pkg-config"
+      - "/usr/local/bin/pkgconf"
+      - "/usr/sbin/pkg-config"
+      - "/usr/sbin/pkgconf"
+    found: "/usr/bin/pkg-config"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:25 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK_gtk-3"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gtk-3"
+    candidate_directories:
+      - "/usr/lib/x86_64-linux-gnu/"
+    found: "/usr/lib/x86_64-linux-gnu/libgtk-3.so"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:25 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK_gdk-3"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gdk-3"
+    candidate_directories:
+      - "/usr/lib/x86_64-linux-gnu/"
+    found: "/usr/lib/x86_64-linux-gnu/libgdk-3.so"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:25 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK_pangocairo-1.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pangocairo-1.0"
+    candidate_directories:
+      - "/usr/lib/x86_64-linux-gnu/"
+    found: "/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:25 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK_cairo-gobject"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cairo-gobject"
+    candidate_directories:
+      - "/usr/lib/x86_64-linux-gnu/"
+    found: "/usr/lib/x86_64-linux-gnu/libcairo-gobject.so"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:25 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK_gdk_pixbuf-2.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gdk_pixbuf-2.0"
+    candidate_directories:
+      - "/usr/lib/x86_64-linux-gnu/"
+    found: "/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:25 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK_atk-1.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "atk-1.0"
+    candidate_directories:
+      - "/usr/lib/x86_64-linux-gnu/"
+    found: "/usr/lib/x86_64-linux-gnu/libatk-1.0.so"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:25 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK_pango-1.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pango-1.0"
+    candidate_directories:
+      - "/usr/lib/x86_64-linux-gnu/"
+    found: "/usr/lib/x86_64-linux-gnu/libpango-1.0.so"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:25 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK_cairo"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cairo"
+    candidate_directories:
+      - "/usr/lib/x86_64-linux-gnu/"
+    found: "/usr/lib/x86_64-linux-gnu/libcairo.so"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:25 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK_harfbuzz"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "harfbuzz"
+    candidate_directories:
+      - "/usr/lib/x86_64-linux-gnu/"
+    found: "/usr/lib/x86_64-linux-gnu/libharfbuzz.so"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:25 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK_gio-2.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gio-2.0"
+    candidate_directories:
+      - "/usr/lib/x86_64-linux-gnu/"
+    found: "/usr/lib/x86_64-linux-gnu/libgio-2.0.so"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:25 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK_gobject-2.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gobject-2.0"
+    candidate_directories:
+      - "/usr/lib/x86_64-linux-gnu/"
+    found: "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:25 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK_glib-2.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glib-2.0"
+    candidate_directories:
+      - "/usr/lib/x86_64-linux-gnu/"
+    found: "/usr/lib/x86_64-linux-gnu/libglib-2.0.so"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:25 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK_z"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "z"
+    candidate_directories:
+      - "/usr/lib/x86_64-linux-gnu/"
+    found: "/usr/lib/x86_64-linux-gnu/libz.so"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:26 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GLIB_glib-2.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glib-2.0"
+    candidate_directories:
+      - "/usr/lib/x86_64-linux-gnu/"
+    found: "/usr/lib/x86_64-linux-gnu/libglib-2.0.so"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:27 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GIO_gio-2.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gio-2.0"
+    candidate_directories:
+      - "/usr/lib/x86_64-linux-gnu/"
+    found: "/usr/lib/x86_64-linux-gnu/libgio-2.0.so"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:27 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GIO_gobject-2.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gobject-2.0"
+    candidate_directories:
+      - "/usr/lib/x86_64-linux-gnu/"
+    found: "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake-4.2/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:27 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GIO_glib-2.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glib-2.0"
+    candidate_directories:
+      - "/usr/lib/x86_64-linux-gnu/"
+    found: "/usr/lib/x86_64-linux-gnu/libglib-2.0.so"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/bengaluru2026/snap/flutter/common/flutter/bin"
+        - "/home/bengaluru2026/.config/composer/vendor/bin"
+        - "/home/bengaluru2026/.local/share/swiftly/bin"
+        - "/opt/swift/usr/bin"
+        - "/home/bengaluru2026/.nvm/versions/node/v24.14.0/bin"
+        - "/home/bengaluru2026/.local/bin"
+        - "/home/bengaluru2026/.rbenv/plugins/ruby-build/bin"
+        - "/home/bengaluru2026/.rbenv/shims"
+        - "/home/bengaluru2026/.rbenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/bengaluru2026/.dotnet/tools"
+        - "/home/bengaluru2026/.dotnet"
+        - "/home/bengaluru2026/.dotnet"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+...

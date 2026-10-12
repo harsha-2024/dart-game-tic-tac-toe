@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/bengaluru2026/Downloads/flutter_todo_app/todo_app/build/linux/x64/debug/cmake_install.cmake",
+		"/home/bengaluru2026/Downloads/flutter_todo_app/todo_app/build/linux/x64/debug/flutter/cmake_install.cmake",
+		"/home/bengaluru2026/Downloads/flutter_todo_app/todo_app/build/linux/x64/debug/runner/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
